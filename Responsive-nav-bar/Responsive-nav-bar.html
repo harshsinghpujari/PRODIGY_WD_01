@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/Responsive-nav-bar.css">
+
+
+  <title>Responsive Nav Bar</title>
+</head>
+
+<body>
+  <nav>
+
+    <ul>
+      <li><a href="#">harshproject</a></li>
+      <li class="hideOnMobile"><a href="#">Products</a></li>
+      <li class="hideOnMobile"><a href= "./responsive-order.html">About</a></li>
+      <li class="hideOnMobile"><a href="https://www.newbalance.com/">Store</a></li>
+      <li class="hideOnMobile"><a href="https://www.newbalance.com/login/">login</a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+   
+      <li ><a href="#">Products</a></li>
+      <li><a href="./responsive-order.html">About</a></li> 
+      <li><a href="https://www.newbalance.com/">Store</a></li>
+      <li><a href="https://www.newbalance.com/login/">login</a></li>
+    </ul>
+  
+  </nav>
+<div class="container">
+
+ 
+  <div class="side-shoes">
+      <img src="./images/responsive-newbalance-shoes.jpg">
+      <img src="./images/Responsive-newbalance-shoes2.jpg">
+      <img src="./images/responsive-newbalance-shoes3.jpg">
+      <img src="./images/responsive-newbalance-shoes4.jpg">
+      <p class="black-shoes-name">New balance Men Black Football Shoes (MSFCOTB5)</p>
+  </div>
+
+  <div class="main-shoes">
+    <img class="main-image" src="./images/new-balance-saka-edition.webp">
+    <div class="text">
+      <h2><p>Unisex</p>
+        FURON PRO FG V7+</h2>
+      <p><price->$239.99</p>
+    </div>
+  </div>
+
+</div>
+<div class="footer"><footer><a href="https://www.newbalance.com/pd/furon-pro-fg-v7plus/SF1FV75-48325.html">For more details of this product visit new balance store</a></footer></div>
+
+ 
+
+  <script src="./scripts/Responsive-nav-bar.js"></script>
+</body> 
+</html>
